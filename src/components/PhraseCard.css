@@ -1,0 +1,43 @@
+.phraseCard {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.phraseCard__title {
+    font-size: 50px;
+    color: #f0f0f0e8;
+    font-style: oblique;
+}
+
+.phraseCard__phrase {
+    margin: 30px auto;
+    max-width: 400px;
+    background-color: #ebe0f049;
+    padding: 30px;
+    border-radius: 20px;
+    color: #e5e5e5;
+    font-size: x-large;
+}
+
+.phraseCard__btn {
+    font-size: 1.5em;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #d278fc56;
+    color: #e5e5e5;
+    border-color: transparent;
+}
+
+.phraseCard__btn:hover {
+    background-color: #e5e5e5;
+    color: #28033aa4;
+    transition: color .3s ease-in-out;
+}
+
+.phraseCard__footer {
+    color: #e5e5e5;
+}
