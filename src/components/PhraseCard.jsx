@@ -1,4 +1,4 @@
-import './phraseCard.css'
+import "./PhraseCard.css"
 
 const PhraseCard = ({ phrase, handleChangePhrase }) => {
 
